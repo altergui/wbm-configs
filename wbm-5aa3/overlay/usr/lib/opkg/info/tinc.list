@@ -1,0 +1,4 @@
+/etc/init.d/tinc
+/usr/sbin/tincd
+/lib/upgrade/keep.d/tinc
+/etc/config/tinc

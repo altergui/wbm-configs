@@ -1,0 +1,10 @@
+Package: traceroute6
+Version: 1.0.2-1
+Depends: libc, libpthread, librt
+Source: feeds/packages/ipv6/ndisc
+SourceFile: ndisc6-1.0.2.tar.bz2
+SourceURL: http://www.remlab.net/files/ndisc6
+Section: ipv6
+Architecture: ar71xx
+Installed-Size: 12017
+Description:  An IPv6-based traceroute implementation
