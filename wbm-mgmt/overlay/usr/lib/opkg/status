@@ -836,6 +836,14 @@ Architecture: ar71xx
 Installed-Time: 1366149047
 Auto-Installed: yes
 
+Package: olsrd-mod-dot-draw
+Version: 0.6.5.2-1
+Depends: libc, olsrd
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1366309592
+
 Package: luci-proto-ppp
 Version: svn-r9811-1
 Depends: libc
