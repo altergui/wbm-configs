@@ -1,0 +1,23 @@
+
+config interface librenet6
+	option 'ignore' 'false'
+
+config filter
+	option 'ignore' 'false'
+	option 'type' 'redistribute'
+	option 'ip' '::/0' 
+	option 'eq' '0'
+	option 'proto' '3'
+	option 'action' 'metric 128'
+
+config filter
+	option 'ignore' 'false'
+	option 'type' 'redistribute'
+	option 'ip' '2a00:1508:1:f000::/52'
+	option 'eq' '64'
+
+config filter
+	option 'ignore' 'false'
+	option 'type' 'redistribute'
+	option 'local' '1'
+	option 'action' 'deny'

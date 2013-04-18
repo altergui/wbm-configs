@@ -49,7 +49,7 @@ config interface 'bat1'
 	option proto 'static'
 	option ipaddr '10.254.254.1'
 	option netmask '255.255.255.0'
-	option ip6addr 'fdff::1/64'
+	option ip6addr '2a00:1508:1:fefe::1/64'
 
 config interface 'wbm1_base'
 	option proto 'none'

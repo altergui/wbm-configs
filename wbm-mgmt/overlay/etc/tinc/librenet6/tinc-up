@@ -1,0 +1,2 @@
+#!/bin/sh
+ifconfig $INTERFACE up mtu 1280 txqueuelen 1000
