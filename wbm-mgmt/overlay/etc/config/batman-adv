@@ -1,4 +1,5 @@
 
 config mesh 'bat1'
+	option vis_mode 'server'
 	option bridge_loop_avoidance '1'
 
