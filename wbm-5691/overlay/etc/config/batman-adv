@@ -1,0 +1,8 @@
+
+config mesh 'bat0'
+	option bridge_loop_avoidance '1'
+
+config mesh 'bat1'
+	option bridge_loop_avoidance '1'
+	option orig_interval '600'
+
