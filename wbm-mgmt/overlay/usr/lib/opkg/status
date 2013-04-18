@@ -393,6 +393,16 @@ Conffiles:
  /etc/ssh/sshd_config 07d1010e20490421617927ae50034226
 Installed-Time: 1366149050
 
+Package: tinc
+Version: 1.0.20-1
+Depends: libc, liblzo, libopenssl, kmod-tun
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/config/tinc f32733335fbaacb5f42b5fd7a65a8abe
+Installed-Time: 1366285756
+
 Package: luci-theme-bootstrap
 Version: svn-r9811-1
 Depends: libc, luci-theme-base
@@ -425,15 +435,6 @@ Status: install hold installed
 Architecture: ar71xx
 Installed-Time: 1366149048
 
-Package: kmod-lib-crc16
-Version: 3.8.7-1
-Depends: kernel (= 3.8.7-1-4267b0c24c981a484e52b0df6c87e90f)
-Provides:
-Status: install hold installed
-Architecture: ar71xx
-Installed-Time: 1366149047
-Auto-Installed: yes
-
 Package: base-files
 Version: 137-r36342
 Depends: libc, netifd, procd
@@ -453,6 +454,15 @@ Conffiles:
  /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
  /etc/config/system 8195f0ae675038c41766a9ff46e6e22b
 Installed-Time: 1366149047
+
+Package: kmod-lib-crc16
+Version: 3.8.7-1
+Depends: kernel (= 3.8.7-1-4267b0c24c981a484e52b0df6c87e90f)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1366149047
+Auto-Installed: yes
 
 Package: libgd
 Version: 2.0.35-1
@@ -875,6 +885,15 @@ Status: install user installed
 Architecture: ar71xx
 Installed-Time: 1366149049
 
+Package: liblzo
+Version: 2.06-1
+Depends: libc
+Provides:
+Status: install ok installed
+Architecture: ar71xx
+Installed-Time: 1366285755
+Auto-Installed: yes
+
 Package: libjson
 Version: 0.9-2
 Depends: libc
@@ -895,15 +914,6 @@ Conffiles:
 Installed-Time: 1366149049
 Auto-Installed: yes
 
-Package: luci-lib-httpclient
-Version: svn-r9811-1
-Depends: libc, luci-lib-core, luci-lib-web, luci-lib-nixio
-Provides:
-Status: install user installed
-Architecture: ar71xx
-Installed-Time: 1366149049
-Auto-Installed: yes
-
 Package: librt
 Version: 0.9.33.2-1
 Depends: libpthread
@@ -912,6 +922,15 @@ Status: install hold installed
 Essential: yes
 Architecture: ar71xx
 Installed-Time: 1366149046
+Auto-Installed: yes
+
+Package: luci-lib-httpclient
+Version: svn-r9811-1
+Depends: libc, luci-lib-core, luci-lib-web, luci-lib-nixio
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1366149049
 Auto-Installed: yes
 
 Package: kmod-mac80211
@@ -1146,6 +1165,14 @@ Architecture: ar71xx
 Installed-Time: 1366149048
 Auto-Installed: yes
 
+Package: ip6tables
+Version: 1.4.18-3
+Depends: libc, kmod-ip6tables, iptables
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1366149047
+
 Package: libxtables
 Version: 1.4.18-3
 Depends: libc
@@ -1154,14 +1181,6 @@ Status: install user installed
 Architecture: ar71xx
 Installed-Time: 1366149047
 Auto-Installed: yes
-
-Package: ip6tables
-Version: 1.4.18-3
-Depends: libc, kmod-ip6tables, iptables
-Provides:
-Status: install user installed
-Architecture: ar71xx
-Installed-Time: 1366149047
 
 Package: zlib
 Version: 1.2.7-1

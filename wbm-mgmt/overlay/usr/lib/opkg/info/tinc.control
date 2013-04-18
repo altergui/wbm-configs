@@ -1,0 +1,11 @@
+Package: tinc
+Version: 1.0.20-1
+Depends: libc, liblzo, libopenssl, kmod-tun
+Source: feeds/packages/net/tinc
+SourceFile: tinc-1.0.20.tar.gz
+SourceURL: http://www.tinc-vpn.org/packages 
+Section: net
+Architecture: ar71xx
+Installed-Size: 51674
+Description:  tinc is a Virtual Private Network (VPN) daemon that uses tunnelling and
+ encryption to create a secure private network between hosts on the Internet.
