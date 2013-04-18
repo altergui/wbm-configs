@@ -1,0 +1,46 @@
+
+config bmx6 'general'
+	option tun4Address '10.2.167.38/32'
+
+config plugin 'config'
+	option plugin 'bmx6_config.so'
+
+config plugin 'json'
+	option plugin 'bmx6_json.so'
+
+config tunOut 'mesh'
+	option tunOut 'mesh'
+	option network '10.0.0.0/8'
+	option minPrefixLen '24'
+	option maxPrefixLen '32'
+
+config tunOut 'inet'
+	option tunOut 'inet'
+	option network '0.0.0.0/0'
+	option minPrefixLen '0'
+	option maxPrefixLen '0'
+
+config tunOut 'ipv6'
+	option tunOut 'ipv6'
+	option network '::/0'
+
+config dev 'lan_bmx6'
+	option dev 'eth0.11'
+	option globalPrefix 'fdba:2:a726::1/128'
+
+config dev 'wbm1_bmx6'
+	option dev 'wbm1.11'
+	option globalPrefix 'fdba:12:a726::1/128'
+
+config tunInNet 'tun_wbm1_bmx6'
+	option tunInNet '10.12.167.38/32'
+	option bandwidth '128000000000'
+
+config dev 'wbm2_bmx6'
+	option dev 'wbm2.11'
+	option globalPrefix 'fdba:22:a726::1/128'
+
+config tunInNet 'tun_wbm2_bmx6'
+	option tunInNet '10.22.167.38/32'
+	option bandwidth '128000000000'
+
