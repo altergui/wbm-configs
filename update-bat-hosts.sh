@@ -8,7 +8,7 @@ sed -i "/### Any changes past this line will get overwritten ###/q" bat-hosts
   MACADDR="$(cat $file | tr abcdef ABCDEF)"
   export IFADDR="
 $(calcMAC "$MACADDR +00:00:00:00:00:00") HOSTNAME_2
-$(calcMAC "$MACADDR +00:00:0A:00:00:01") HOSTNAME_5"
+$(calcMAC "$MACADDR +00:00:0A:00:00:00") HOSTNAME_5"
   echo "$IFADDR" | sed "s/HOSTNAME/$(uci -c ${file%.mac}/overlay/etc/config/ get system.@system[0].hostname)/"
 done ) >> bat-hosts
 
