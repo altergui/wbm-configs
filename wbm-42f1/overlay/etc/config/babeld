@@ -1,0 +1,31 @@
+
+config filter
+	option ignore 'false'
+	option type 'redistribute'
+	option local '1'
+	option action 'deny'
+
+config interface 'lan_babel'
+	option ignore 'false'
+
+config filter
+	option ignore 'false'
+	option type 'redistribute'
+	option ip 'fdba:4:42f1::1/64'
+
+config interface 'wbm1_babel'
+	option ignore 'false'
+
+config filter
+	option ignore 'false'
+	option type 'redistribute'
+	option ip 'fdba:14:42f1::1/64'
+
+config interface 'wbm2_babel'
+	option ignore 'false'
+
+config filter
+	option ignore 'false'
+	option type 'redistribute'
+	option ip 'fdba:24:42f1::1/64'
+

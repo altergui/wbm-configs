@@ -1,0 +1,23 @@
+
+config bmx6 'general'
+	option syslog '0'
+	option dbgMuteTimeout '1000000'
+
+config plugin 'config'
+	option plugin 'bmx6_config.so'
+
+config plugin 'json'
+	option plugin 'bmx6_json.so'
+
+config ipVersion 'ipVersion'
+	option ipVersion '6'
+	option throwRules '0'
+
+config dev 'lan_bmx6'
+	option dev 'eth0.11'
+	option globalPrefix 'fdba:2:0db4::1/128'
+
+config dev 'wbm1_bmx6'
+	option dev 'wbm1.11'
+	option globalPrefix 'fdba:12:0db4::1/128'
+

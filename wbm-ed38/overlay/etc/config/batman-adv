@@ -1,0 +1,10 @@
+
+config mesh 'bat0'
+	option vis_mode 'master'
+	option bridge_loop_avoidance '1'
+
+config mesh 'bat1'
+	option orig_interval '600'
+	option vis_mode 'master'
+	option bridge_loop_avoidance '1'
+

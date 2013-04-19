@@ -6,7 +6,7 @@ config interface 'loopback'
 	option netmask '255.0.0.0'
 
 config globals 'globals'
-	option ula_prefix 'fd62:9dbb:298a::/48'
+	option ula_prefix 'fd21:bc83:6589::/48'
 
 config interface 'lan'
 	option proto 'static'
@@ -54,7 +54,7 @@ config interface 'bat0'
 	option proto 'static'
 	option mtu '1500'
 	option macaddr '02:ba:ff:OpenWrt:01'
-	option ip6addr 'fdba:3:6565::1/64'
+	option ip6addr 'fdbb::6565/64'
 	option ipaddr '10.3.101.101'
 	option netmask '16'
 
