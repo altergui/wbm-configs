@@ -11,7 +11,7 @@ config interface 'lan_babel'
 config filter
 	option ignore 'false'
 	option type 'redistribute'
-	option ip 'fdba:4:f72::1/64'
+	option ip 'fdba:4:f702::1/64'
 
 config interface 'wbm1_babel'
 	option ignore 'false'
@@ -19,7 +19,7 @@ config interface 'wbm1_babel'
 config filter
 	option ignore 'false'
 	option type 'redistribute'
-	option ip 'fdba:14:f72::1/64'
+	option ip 'fdba:14:f702::1/64'
 
 config interface 'wbm2_babel'
 	option ignore 'false'
@@ -27,5 +27,5 @@ config interface 'wbm2_babel'
 config filter
 	option ignore 'false'
 	option type 'redistribute'
-	option ip 'fdba:24:f72::1/64'
+	option ip 'fdba:24:f702::1/64'
 
