@@ -1,0 +1,4 @@
+config altermap 'agent'
+option enabled '1'
+option network 'WBMv6 Aalborg'
+option server_url 'http://mapa.mesh.altermundi.net/altermap'

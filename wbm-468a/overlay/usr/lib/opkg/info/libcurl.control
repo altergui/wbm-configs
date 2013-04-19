@@ -1,0 +1,12 @@
+Package: libcurl
+Version: 7.29.0-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/libs/curl
+SourceFile: curl-7.29.0.tar.bz2
+SourceURL: http://curl.haxx.se/download/ http://www.mirrorspace.org/curl/ http://curl.mirror.internet.tp/download/ ftp://ftp.sunet.se/pub/www/utilities/curl/ ftp://ftp.planetmirror.com/pub/curl/ http://www.mirrormonster.com/curl/download/ http://curl.mirrors.cyberservers.net/download/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Architecture: ar71xx
+Installed-Size: 133122
+Description:  A client-side URL transfer library
