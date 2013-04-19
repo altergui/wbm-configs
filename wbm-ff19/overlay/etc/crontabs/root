@@ -1,1 +1,2 @@
 */10 * * * *	lua /usr/bin/wbm-fwupdate
+0 * * * * /usr/sbin/altermap-agent > /tmp/log/altermap-agent.log
