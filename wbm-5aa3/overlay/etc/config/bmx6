@@ -9,9 +9,9 @@ config plugin 'config'
 config plugin 'json'
 	option plugin 'bmx6_json.so'
 
-config tunOut 'ipv6'
-	option tunOut 'ipv6'
-	option network '::/0'
+config ipVersion 'ipVersion'
+	option ipVersion '6'
+	option throwRules '0'
 
 config dev 'lan_bmx6'
 	option dev 'eth0.11'

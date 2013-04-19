@@ -25,10 +25,6 @@ config dhcp 'wan'
 	option interface 'wan'
 	option ignore '1'
 
-config dhcp 'bat1'
-	option interface 'bat1'
-	option ignore '1'
-
 config dhcp 'mgmt'
 	option interface 'mgmt'
 	option ignore '1'

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-wget http://[::1]:2006/${1} -O - 2>/dev/null
-

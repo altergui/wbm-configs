@@ -20,6 +20,11 @@ printandexec batctl o
 
 printandexec date
 printandexec wbm-experiment top
+printandexec wbm-experiment list nodes bmx6
+printandexec wbm-experiment list neigh bmx6
+
+printandexec date
+printandexec wbm-experiment top
 printandexec wget http://[::1]:2006/all -O -
 
 printandexec date
