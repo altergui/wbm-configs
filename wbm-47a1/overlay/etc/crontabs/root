@@ -1,0 +1,1 @@
+*/10 * * * *	lua /usr/bin/wbm-fwupdate

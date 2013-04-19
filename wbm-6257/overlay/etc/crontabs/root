@@ -1,0 +1,1 @@
+0 * * * * /usr/sbin/altermap-agent > /tmp/log/altermap-agent.log

@@ -1,0 +1,7 @@
+
+config altermap 'agent'
+	option enabled '1'
+	option network 'WBMv6 Aalborg'
+	option server_url 'http://mapa.mesh.altermundi.net/altermap'
+	option device_id '41a1678285c54be0530ca643194293b5'
+

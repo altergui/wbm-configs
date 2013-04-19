@@ -1,0 +1,9 @@
+Package: sysinfo-json
+Version: 2013-04-11-237-1
+Depends: libc, jshn
+Source: feeds/altermesh/sysinfo-json
+Section: admin
+Maintainer: Gui Iribarren <gui@altermundi.net>
+Architecture: ar71xx
+Installed-Size: 823
+Description:  Small script that collects info (network settings, wifi stations, etc) and generates a JSON with it.
