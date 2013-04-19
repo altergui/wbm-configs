@@ -1,6 +1,0 @@
-/lib/altermap/agent/device.sh
-/lib/altermap/functions.sh
-/lib/altermap/agent/interfaces.sh
-/lib/altermap/agent/wifilinks.sh
-/usr/sbin/altermap-agent
-/etc/init.d/altermap-agent

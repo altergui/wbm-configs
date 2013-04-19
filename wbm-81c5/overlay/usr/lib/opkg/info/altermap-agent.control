@@ -1,9 +1,0 @@
-Package: altermap-agent
-Version: 2013-04-11-238-1
-Depends: libc, curl, jshn, sysinfo-json
-Source: feeds/altermesh/altermap-agent
-Section: admin
-Maintainer: Gui Iribarren <gui@altermundi.net>
-Architecture: ar71xx
-Installed-Size: 2237
-Description:  Small script that collects info (network settings, wifi stations, etc) from a router, and sends it to a map server.

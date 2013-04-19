@@ -4,23 +4,16 @@ config olsrd
 	option LinkQualityAlgorithm 'etx_ffeth'
 
 config LoadPlugin
+	option library 'olsrd_arprefresh.so.0.1'
+
+config LoadPlugin
 	option library 'olsrd_jsoninfo.so.0.0'
 	option accept '::1'
 	option port '9090'
 
 config LoadPlugin
-	option library 'olsrd_dot_draw.so.0.3'
-	option accept '::'
-	option port '2004'
-
-#config LoadPlugin
-#	option library 'olsrd_httpinfo.so.0.1'
-#	option accept '::'
-#	option port '2006'
-
-config LoadPlugin
 	option library 'olsrd_txtinfo.so.0.1'
-	option accept '::'
+	option accept '::1'
 	option port '2006'
 
 config Interface

@@ -18,4 +18,6 @@ config wifi-iface 'wbm1'
 	option ssid 'WBMv6-8f53'
 	option bssid '02:ba:be:c0:ff:ee'
 	option ifname 'wbm1'
+	option mcast_rate '54000'
+	option macaddr '02:ba:0a:8f:53:01'
 

@@ -50,9 +50,6 @@ config samba
 config tinyproxy
 	option init 'tinyproxy'
 
-config ahcpd
-	option init 'ahcpd'
-
 config olsrd
 	option init 'olsrd'
 
