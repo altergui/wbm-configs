@@ -1,6 +1,6 @@
 #!/bin/sh
 
-calcMAC () { echo "obase=16;ibase=16;$*"| tr -d : | bc | sed "s/\(..\)/\1:/g;s/:$//" ; }
+calcMAC () { echo "obase=16;ibase=16;$*"| tr -d : | bc | sed "s/^/0/;s/\(..\)/\1:/g;s/:$//" ; }
 
 echo "### Any changes past this line will get overwritten ###" >> bat-hosts
 sed -i "/### Any changes past this line will get overwritten ###/q" bat-hosts
